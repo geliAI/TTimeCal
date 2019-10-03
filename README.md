@@ -1,4 +1,4 @@
-# TTimeCal1D
+# TTimeCal
  Earthquake travel time calculation based on a 1D layered velocity model.  
 ## Installation
 Assume ```src``` folder is located in $PATH_TO_SRC:  
