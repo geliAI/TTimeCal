@@ -2,6 +2,7 @@ clc; clear all;
 %
 velmod = 'vel.mod';
 eventfile = 'evt_sta.dat';
+output_name = 'ttime.dat'
 %% read vel.mod
 fIDVel = fopen(velmod);
 lineNum = 0;
@@ -43,4 +44,4 @@ for i = 1 : length(delta)
     [ angle(i), travelTime(i),flag(i),refractLayer(i) ] = traveltimeCal( velMod',depthMod',delta(i),depthEvent(i));
 end
 T = table(evtID,staName,travelTime', angle');
-writetable(T,'ttime.dat','WriteVariableNames',false);
+writetable(T,output_name,'WriteVariableNames',false);
