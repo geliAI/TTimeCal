@@ -1,5 +1,5 @@
 # TTimeCal1D
- Earthquake travel time calculation based on 1D layered velocity model.  
+ Earthquake travel time calculation based on a 1D layered velocity model.  
 ## Installation
 Assume ```src``` folder is located in $PATH_TO_SRC:  
 ```addpath(genpath('/Users/lige/Documents/GitHub/TTimeCal1D/src'))```.   
