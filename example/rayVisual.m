@@ -1,5 +1,5 @@
 clc; clear all;
-%rayVisualDriver
+%This is a driver script to visualize seismic ray path.
 velMod = [4.5 5.0 6.75];
 depthMod =[0.0 5.0 12.0];
 delta = 50; depthEvent = 4; 
