@@ -1,6 +1,6 @@
 # TTimeCal
  Earthquake travel time calculation based on a 1D layered velocity model.  
- https://zenodo.org/badge/212610524.svg
+[![DOI](https://zenodo.org/badge/212610524.svg)](https://zenodo.org/badge/latestdoi/212610524)
 ## Installation
 Assume ```src``` folder is located in $PATH_TO_SRC:  
 ```addpath(genpath($PATH_TO_SRC))```.   
